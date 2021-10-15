@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestRunner1" thread-count="5">
+    <classes>
+      <class name="textScript.TCase_36">
+      <methods>
+      <exclude name="tcase_36"/>
+      </methods>
+      </class>
+      <class name="textScript.TCase_37"/>
+    </classes>
+    </test>
+    <test name="TestRunner2">
+    <classes>
+    <class name="textScript.TCase_38">
+    <methods>
+      <include name="tcase_38"/>
+      </methods>
+    </class>    
+     <class name="textScript.TCase_39"/>
+      <class name="textScript.TCase_40"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

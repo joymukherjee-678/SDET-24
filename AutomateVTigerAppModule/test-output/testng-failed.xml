@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="textScript.TCase_36">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="logoutOfApp"/>
+          <include name="closeBrowser"/>
+          <include name="tcase_36"/>
+          <include name="loginToApp"/>
+        </methods>
+      </class> <!-- textScript.TCase_36 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
