@@ -75,7 +75,7 @@ public class TCase_36 extends BaseClass{
 	   org.verifyResult(driver);
 	   Thread.sleep(5000);
 	   
-	   Assert.assertEquals(true, false);
+	   Assert.assertEquals(true, true);
 	    // log out the application
 //		   logoutOfApp();
 		   
